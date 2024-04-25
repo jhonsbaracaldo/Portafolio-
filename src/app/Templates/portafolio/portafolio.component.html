@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portafolio.component.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Header y Sección con Foto y Descripción</title>
+</head>
+<body>
+ 
+
+  <section class="about-me-section">
+    <div class="photo">
+      <img src="../../../assets/img/perfil.jpeg" alt="Tu foto">
+    </div>
+    <div class="description">
+      <h2>About Me</h2>
+      <p>Hello! I am Jhon Baracaldo, an enthusiastic junior developer specializing in backend development with Java. I am passionate about the world of programming and, especially, the challenge of creating robust and efficient applications using this language. Since I discovered my interest in software development, I have invested time and effort in improving my skills, focusing especially on Java and its application in backend environments.</p>
+      <div class="skill">
+        <h3>Skills</h3>
+        <ul>
+          <li class="icon">
+            <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABh0lEQVR4nO2YQUoDMRSGv42zdKXbVrAnsdUzuPISnkGPoO09XLlw4VhwJbgRurGO3bqwKohQiAw8IYxJOnVGJyPvgxCSvL7+fzKTIQFFURRFUeJiCxgBM2ABmIbLQrQMge4y8XvASwSijafMgUFo5mMWbywTHZeBkRV0D+wACc2TAH1gauk7dQXOrIBcfGz0LX2ZK8B+YWOY+SJJ4cX+hv2cxYoJaVQDf4D51yswkYG89jEGUk977Nizv8YugGtgXdp5fQWcB3KvbKAHHALbJRK42qnDwGUh7gxYkzqU60cGylDmT0N9ebnzCDFVDWwC+8BGyQS+ZKG+j0Jt6jRwKwM3v2jgAHiSunYDZZ6vqo/QqrlaacAUdrBaDaTWzuJqV+lLPTtYrQaaZhL6VrXBQC/0rWqDgSBtMHAMvAJHbT3QvIu+N1fAY+RHyoGl78EVMLQCpvKDGFYiAXYLh/oTV2BXrixM5OXZd62CzPo8cvH9ZUvWkSXKIrpazESTd+YVRVEURaEBPgED7drfTIferQAAAABJRU5ErkJggg==">
+          </li>
+          <li class="icon">
+            <img  alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1ElEQVR4nO2YSy9DQRiGH5siduxcysZOYs1GokX8EbHyL1z+ANqQ+AFiIYSoDSsssLARC5SdDUrToHFkkk8yacfpNE3Omco8yeQ08349+d65nLmAx+PxeDwetxgAssAjUAaCmEtZcskA/bWSnwQKDiQd/FFegXRYy7ucfKCZSJoMZLWgW2AcSBA/CSAF3Gn5rZoCH7UAlbxrpLT88qYAfcK60PKVJComdhUfIqqnqwRaqWIF+AaWaVIDijbcJqhlgGY30FHnC6eBG6AI7AJ9Ut8JbEn9J3ACDFtoDRnYEGENO0YNW40L0dYNC9C2hdaQgS8R1NOGfYlfBLqBU+BItCvRJoB2YAYYstAaMlDvBHmS2C6Dprey+iwfast/mOaMATXON2Wc/74zZ6FFamBPYpeAHuAMOBZtFpgDWoFBiStYaJEaGDFM4nPRng0TNWehRWpAMQVcA+/ADtAr9WPApRhU4/xAG+dhWuQGoibwBmIm+Nc9UG72A82D40fKtJbfvSkgowXcyR9c6ImE7Jv0Q706fFXRL1cWQQylJCt6JQui6bEvYetGOkYTRaBFy0X9fjMkr24nQklKF+UjvFosyba8knlZ5fOSk+2K7fF4PB6Phyj4AahvunACZI7eAAAAAElFTkSuQmCC">
+          </li>
+          <li class="icon">
+            <img  alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACVUlEQVR4nO2Zy0tVURTGfwbdCpMe4KSBFo6iaNAsCoR8QU4iwZETESLoBU7CfyCCIMLAdOJIaNCoQDSHFjhxFg0cea8XlDJBo6coRzYsYbE599A9Z9/zgP3BZsO6a6+1vrUfZ+91wcPDwyPvOA9MAVVgDwga3PbE1yTQnjT4XuBHCkEHNdoO0J0k81kGHygSbXEITCkjZaALKNF4lCTrFeX/dRxDVWXABJ82epR/Q6Zu6A2bRuZtlKyNXTf0OswK++Lf9IUkMCf+TV9IAseAq9IXkkAieAIOMAqsAI+LOgN/xP/vohIIksTgCRR9BkbkQmjaTeu3U8Bd4CXwHBgCTuaNwIwa/0jJrwHfQq7Nq8DlvBM4Aawr+b7l5zNwJM8E+pRsSZbSGWAe+ARcdBlDIwgM1HikNFuZzy2BS0pmPlJPgOONiuGfDDS9y038wQpsAxgDWlwTGJeX0LhjAq3AYsgp9DWkApH4Y5rkKVmLALLezdn/xQrSJKwzL7eBKAKHaAIGpepxqDubBYGjwG1L9k45v6/kHSFVjutKd80VgTuSDdNHoVMthRfABeCGVRQzWTZ4CPwEtoAryka/0q26IrAlA00fhQchG1K3XeCc6L5R8r/Ae+At8EvJp10R+N/BZh2/iiDwVOmeBj5G6JYV2cQE6i1s3QIWgE3gu1wNhoWghqkw3JOrxCawDSwDz4Czlp4+nerGmjIQu0LsqLRYjmNg0jLQk2Jxt9cq7k7EMdQupe0g47Ydt7yOLJ2djIPvIiHaZAorKf7FVBGfsTPv4eHhQSo4AE2r5964j0mgAAAAAElFTkSuQmCC">
+          </li>
+          <li class="icon">
+            <img alt=""  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSElEQVR4nO2ZPWsVQRSGn8R4USwCipXBiFhYiqD+BDEa0VrwV5gYkl4Q0mtj1M7GTvyKkMQPVIyljfamEUEMSS4SJxx4F4blrns3OzNrwr5wmJ2zc+acd+djz+xCixYt+sEQMAUsA13ABZDvwCCJgl8KFHRe7qUgMRUp+GQkPnvOjEynZn+9SMzFJOHP+brB84+RmItFwncSur87KUjEJDCQgkS2BqyM8UAGYpM4CFxVGXpNDacicSBUR8CnClvsSgiHd9WZlSEwVvE9URt/1JGVoXAR+NhnWvLf7ULJfbqWQHW4dgR2wxQ6BrwKnDr/BR7pxZXhlrfT9ZJ5YHQ7BEIH78sRz89qH+2NRGWEOjrWHQGnWHbE3A8aQ5nxO+BNTncZ+AFcUn0c+CV9hivSXSiwSUag170sUbM0wXA9V/fbXCuwaYzA2ZzNGWC/nm5WP6dr0+0rsGmMwAPVf6q8L/2sV3+o69slNskJHALWtcucBzaBDeAwcEL1dYldHy+wWZM+GoEPwHu9WJyCNEwWbH8Tuv/M0z0psbkRk8CXnP659N8KgjF9thtlurESm68xCZwE3gK/gafAiPSvpc/OsIP6HGli2KM2S16bMpsoBFLD1YmhLJXY1K5hT+6xFqOLJBsxk7lTEQN3kpfbITAqw6ZH4AVwlBpoYi24kD53PIFu4M/rZejUPQfksex1OB2ZRAeY8fxZptr4LyZbhHsrnsCcxNKNID/5FmuSOF3xDOyABfkOAuvopoa0G3EEuvIxETL4Fi12M7YAmWWRgnMxEc8AAAAASUVORK5CYII=">
+          </li>
+          <div class="icon">
+            <img  alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEoklEQVR4nO2ZeYhVdRTHPzOOpemYlmZNC0NZjdkiGdS0DZUtULQRFW0EYZIWtFlUtEFGe0YYrWLbH1ZmixWVQSFSlBHSvrlATovto45T07w48L1wONz33p377hvmj/nCgfd+797zO+f3O7/vOef3YAhDGMIQAg4CfgRKTv4EfgfWACuAF4B7gAuBacBwBgjNwPnAM8DFZZ65LxifRbqApcAlwNh6GL49cD+wyU3aB7Rm3IH+yGbgEWBCUcYfru2PE/0MjMmoY1tgHDAJOAI4G7gJeA74rowjNuextRrfDnQHxZ8AVwMTKQ6tCp8Pw1zdsiE3Op2ytcCJ1B/HhF0xG3LjX6foDAYOp7l5zYbc6A4rcSr1x3HAuhBGufFLyuH6ApgDTCnOZvYALgU+TpnPbMiN9VUoz3blVWCu8sNRwGRgvFinQXrGSfYGjgTOAW5RQltbZY71RTnwsDJqqc6yCXiyHg60ANsAF4i/fy3Q6L+Al4GZyhkt9XLAoxHYBzgLuB14FngP+ArYoETU55KSyTfAcmARcCdwHjAVaAq6C3NgQwUH6omWohz4xymyAzhQ2MnN+0MtinqcojeLLLCqYJjCraTzlhuxiLPvdwFt1B9jgQ5gq3rlgdXAo+oLDqlXHV8rvAPfZuTwr4GVwDLgbSfvS0eX+gXrGwbUgV2AExSTfxfA/da5JTgUuBy4G5gHXKOsPqxIBzyNNqnRuVb8vwrY2A/j/Q60u3wR5cVaHejsZx5oVi1kjfrRwHQnB4uKYxd3UhVnTV9ubHaKdqUY7CxJ0KBKdJ6qXAulT928c/TMNBWCVgHkSmTW8tUCM2KB0/dahRifEXbBn7kPgFFZJ+1yL/bJgL1yOnBVSni0lXnWuP+jCmH1eJ4z4B2xVbgOOAzYOoOePUNWtzbxlSosY2flMUcOPwU7rHeuuaEpKcy+BBYrjo2ZTnbNjOFB9/yKlOqzEmyBttPnhU7P6/TTgVOAJWElK8ls6WgKMWz3QhHjgQeUAFdqIWwsYjeg10XCxDx5wEqGc4EnVPuX4/Cb9fzoMD4rzLF7SngkIWO/eVwUnmnN40DEKFGc3bZdAdwL3BqYYpHT06MbugTLKuziW+65HcMtyUvVjM/qQBaMBN5N2YVm4D+NmXHHq1zZorFe7aDhTPe+1VUjskz8vXtpP2rDDU7XHRqbFKpbdPhXu/Fkt2a7MauCM+Ep99I6pX3PLlnRHnqL0zXeGHLNYtU/vtlPMu+BgYbtGqcqDkgp0lapWszaYg4PK/pZOB83VjgD17vnGnRzkfy20dFrRUwvwxJJVbnEXWx1yDH/j0tkITvwHk3AQ4HN7PP8lHyxg6PRUgpLlcUE/SWUtQ/oFGcnK/e5++2yMnNMUQ00Q9c1afA0uiZPvzBGK22r/lsVJ+z6MMHMENeztOq3ZSSH/RW2fzg9V1Ij7HDtq6Q2V1y/XLcJb4S6f6TKjTRHe1Uyl8OIYHhJbWvmirQoTHX8HqVPLWQWB3pSztGAoUO32UsVAu+EzDpa0qbM652fr39HrbMbNJhc4QxtUbM/qNEY2scoVlsNeljeeFqVrSUnE/v8fJZE9T9G4YvXIwtDlQAAAABJRU5ErkJggg==">        </div>
+          <div class="icon">
+            <img  alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADrElEQVR4nO2ZSWgVQRCGP5OoibjFBUGjnvRiTi7JRRRxASHgggb1oCIoCIInjUHIQTR40INoLoK7ElwCIrgcPBhU3MjBDQ9q1LhEE9yJMS4oDfWkaGZ6+s2b94LwfmhIXtffVf90T3d1DeSRRx5JoACYBmwETgJ3gZfAN+AH8AF4AJwBaoFK4fQ6xgJ1QCvwJ81mBNYDY3oj8KHALqAnRuB2+w40AMNyFXwF0BkQSAdwGFgHTAbKgBKgLzACmAKsBA4A7QH8TqA6FwL2W46bgcVAvzTGKAKqgCsBQvZJf9YwC/goL+WiBMabDzy2RJyT2ftvMBA4GiAiqzORDdRZIvbyH6LOErEkm87WAi3AHtl1fFEmnBZgRUD/MWt3K40T3DyZwkkOm+vK0Wdgrue4nxXvcsg78SSTpVQmB4wh33TYPbOmuwvYBlwA2uT/Lvn7vPR1WZxWx+6kD7vR6QjYrsjGcRgeJXAStzrGb1Z2O3yDN0nWG0Vc6LA9koCAy47xq5TdC98EcJoivQUKHbbrExCw0zF+kcSQsjVpTCS2KsLBiIRODx63vQaGOPwcUrY1PgJOKcJqT6GZti0OP6uU3WkfAQ8VwWSQYWhJUMAdh5+pyu6ej4AORRjpsPuaoICvDj8jrZQ7Eqn937T+DrsvCQr45PDTX9mZ2CKhb1kDHHZ3EhRwy+GnWNl1+wh4rwjjHXa1CQqocfgZpezMrheJB4pgXqAwDAq5Gqbb3shYYahQtvd9BDQpgrnfujAzw4t9DzAjwscaZd/oI0AvjRMe9nPkiplu8KZWNNtj/COe58U/VCpCu+e1zmSKx4FfHoH/Eluf7LLQ2tZNtSMSBVJ0SpGW4o9xwCapzNmB35U+UwzzxSLFNzH18SXWK+JVq8+UDy8CE0K4ywNy/tRhlc7DMLik+OYu4Y0x1oG2QPX1kQTLJGETLZ7ZtX46ls9332Vg7Yg9cUqQDdb0DbaO9275vVz9ftbjHTAFXl9USLklVv1puFVCbLTWYOri/VuujE8jnr7eGHKGasflo1xmIc7+n1Pss5xvVzMxHbjt+eR7TUCRlPl0AE1S+rARV8AQ2WV2h4ybMUoCRLQFlMPjCFhmFRE2k8WZ2BsQzDXZ+3XeHtWK5VvBjYC+dM+KtGFqle8CHAd99AhrOmX/I+2VfGfICUplNvRhF7d1S51UnzM5w2ipmLXFCNxwauXzU6+jQE7NLVL6uCfLpEfyoudybTSfYDfIGeKdmOWRRx6E4i8t57TMtjEuNgAAAABJRU5ErkJggg==">
+          </div>
+     </ul>
+      </div>
+     <section>
+      <div class="Contact">
+        <h3>Contact</h3>
+        <ul>
+          <li class="contact-info">Jhonsbaracaldo@gmail.com</li>
+          <li class="contact-info">+57 3124527086</li>
+          <li class="contact-info">
+            <span class="circle-icon"></span>
+            <span class="text">Available</span>
+          </li>
+    
+        </ul>
+      </div>
+    </section>
+   
+    <section>
+      <div class="Proyectos">
+        <h3>Projects</h3>
+        <div class="project-container">
+          <div class="project">
+            <img src="../../../assets/img/cine.png" alt="Proyecto 1">
+            <button onclick="window.location.href='https://github.com/jhonsbaracaldo/CinemaProject'">Backend</button>
+            <button onclick="window.location.href='https://github.com/jhonsbaracaldo/reservation-system'">Front</button>
+          </div>
+          <div class="project">
+            <img src="../../../assets/img/zoomf.png" alt="Proyecto 2">
+            <button onclick="window.location.href='https://github.com/jhonsbaracaldo/ZoomFitnets'">Backend</button>
+            <button onclick="window.location.href='https://github.com/jhonsbaracaldo/ZoomFitnets_Front'">Front</button>
+         
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+</div>
+  </section>
+  <footer>
+
+  </footer>
+</body>
+

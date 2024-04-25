@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Centra el contenido del encabezado */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Hace que la lista se centre */
+}
+
+nav ul li {
+    display: inline-block; /* Alinea los elementos de la lista horizontalmente */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block; /* Alinea los íconos y textos horizontalmente */
+    vertical-align: middle; /* Centra verticalmente los íconos y textos */
+}
+
+nav ul li a span {
+    margin-left: 5px; /* Agrega un pequeño espacio entre el ícono y el texto */
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Estilos para los iconos */
+.fa {
+    margin-right: 5px;
+}
+
+/* Estilos para la sección "about-me" */
+.about-me-section {
+    display: flex; /* Utiliza flexbox para organizar los elementos en la sección */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 30px 0;
+    margin-top: -10px; /* Margen negativo para pegar la sección al encabezado */
+}
+
+.about-me-section .photo {
+    flex: 1; /* La foto ocupa la mitad del ancho */
+    margin-right: 20px;
+}
+
+.about-me-section .photo img {
+    max-width: 46%; /* La imagen de la foto ocupa todo el ancho disponible */
+    height: auto;
+    margin-top: -2.4%;
+}
+
+.about-me-section .description {
+    flex: 1; /* La descripción ocupa la mitad del ancho */
+    margin-top: -15%; /* Ajusta este valor para acercar el texto más a la foto */
+    margin-left: -30%;
+}
+
+.about-me-section .description h2 {
+    font-size: 80px; /* Ajusta el tamaño de la letra según lo necesites */
+    font-weight: bold; /* Hace la letra más gorda */
+    margin-bottom: 10px;
+     margin-top: 1%;
+}
+
+.about-me-section .description p {
+    font-size: 16px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: -2.2%;
+
+
+}
+
+.skill {
+    text-align: center;
+    font-weight: bold; 
+  }
+  
+  .skill h3 {
+    text-align: center;
+    font-weight: bold; 
+  }
+  .row {
+    display: flex;
+    text-align: center; /* Centra los íconos horizontalmente */
+  }
+  
+  .icon {
+    display: inline-block; /* Muestra los íconos en línea horizontalmente */
+    margin: 0 10px; /* Agrega un espacio entre cada ícono */
+    transition: transform 0.2s ease-in-out;  /* Add transition for smooth animation */
+
+  }
+  .icon:hover {
+    transform: scale(1.2);  /* Increase icon size by 20% on hover */
+  }
+  
+  .Contact {
+    text-align: center; /* Center the content horizontally within the Contact div */
+  }
+
+  .Contact h3 {
+    margin-bottom: 10px;
+  }
+
+  .Contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margins */
+  }
+
+  .contact-info {
+    display: inline-block; /* Display list items inline for horizontal layout */
+    margin-right: 20px; /* Add space between contact details */
+  }
+
+  .contact-info:last-child { /* Remove margin for the last item */
+    margin-right: 0;
+  }
+
+  .circle-icon {
+    display: inline-block;
+    width: 10px; /* Adjust size as needed */
+    height: 10px;
+    border-radius: 50%;
+    background-color: green; /* Change to your desired color */
+    margin-right: 5px; /* Adjust spacing as needed */
+  }
+  
+  .text {
+    vertical-align: middle; /* Align text vertically with the circle */
+  }
