@@ -18,4 +18,7 @@ currentRoute: any;
   navigateToProject() {
     this.router.navigate(['/Project']);
   }
+
+  rutaimg: string = '../../../assets/img/cine.png'; // Ruta de la imagen
+
 }
